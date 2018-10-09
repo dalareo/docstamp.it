@@ -18,13 +18,16 @@
   "license": "MIT",
   "dependencies": {
     "arraybuffer-to-buffer": "0.0.4",
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
     "dotenv": "^4.0.0",
     "ethereumjs-abi": "^0.6.4",
     "ethereumjs-util": "^5.1.2",
     "moment": "^2.19.1",
     "promise-wait": "^1.0.0",
     "truffle-contract": "^3.0.1",
-    "web3-detect-network": "0.0.17"
+    "web3-detect-network": "0.0.17",
+    "web3-providers-ws": "^1.0.0-beta.36"
   },
   "devDependencies": {
     "browserify": "^14.5.0",

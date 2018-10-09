@@ -6,7 +6,8 @@ const key = process.env.MNEMONIC
 module.exports = {
   networks: {
     development: {
-      host: 'localhost',
+      provider: new HDWalletProvider(key, 'http://0.0.0.0:8545'),
+      host: '0.0.0.0',
       port: 8545,
       network_id: '*' // Match any network id
     },
